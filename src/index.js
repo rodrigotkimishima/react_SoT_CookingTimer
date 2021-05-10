@@ -6,10 +6,10 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <div>
-    <App foodTime='40' foodName='Fish'/>
-    <App foodTime='60' foodName='Meat'/>
-    <App foodTime='90' foodName='Trophy Fish'/>
-    <App foodTime='120' foodName='Beast Meat'/>
+    <App foodStartTime='40' foodUndercookedTime='10' foodName='Fish'/>
+    <App foodStartTime='60' foodUndercookedTime='10' foodName='Meat'/>
+    <App foodStartTime='90' foodUndercookedTime='10' foodName='Trophy Fish'/>
+    <App foodStartTime='120' foodUndercookedTime='20' foodName='Beast Meat'/>
   </div>,
   document.getElementById('root')
 );
